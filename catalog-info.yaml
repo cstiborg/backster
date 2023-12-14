@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backster
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   description: a simple Backstage managed service
 spec:
   type: service
